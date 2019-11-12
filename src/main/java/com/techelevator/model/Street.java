@@ -8,9 +8,14 @@ public class Street {
 	private String name;
 	private String side;
 	private String neighborhood;
-	private LocalDate startDate;
-	private LocalDate endDate;
-	private String claeningDay;
-	//going to need a start time and end time or time range
+	private int startMonth;
+	private int endMonth;
+	private int cleaningDayOfWeek;
+	private int cleaningWeekOfMonth;
+	private LocalDate startTime;
+	private LocalDate endTime;
+	
+	
+	
 	  
 }
