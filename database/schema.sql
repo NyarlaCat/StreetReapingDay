@@ -1,5 +1,5 @@
 BEGIN TRANSACTION;
-
+DROP TABLE IF EXISTS street;
 
 CREATE TABLE street (
   id serial,
@@ -10,7 +10,7 @@ CREATE TABLE street (
   end_date DATE NOT NULL,
   cleaning_day date NOT NULL,
   
-  constraint id primary key (id)
+  constraint id primary key (id),
 );
 
   
